@@ -1,44 +1,24 @@
-# SALINPAUL
+# README
 
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
+Things you may want to cover:
 
-Dependancies
+* Ruby version
 
-Install:
+* System dependencies
 
-ruby version :- 3.1.2p20
+* Configuration
 
-rails version :- 7.0.3.1
+* Database creation
 
--------------------------------------------------------
+* Database initialization
 
+* How to run the test suite
 
-Configuration
+* Services (job queues, cache servers, search engines, etc.)
 
-Download the blog folder into your system
+* Deployment instructions
 
-Open terminal and cd into the blog folder
-
-run the command  "bundle install"
-
-------------------------------------------------------
-
-How to run the application
-
-Open terminal and cd into the blog folder
-
-type command:- "rails server"
-
-Open any browser and in goto :- "http://127.0.0.1:3000"
-
-HERE YOU CAN PERFORM THE CRUD OPERATIONS
-
--------------------------------------------------------
-
-To close the server
-
-in the terminal perss crtl-c
-perss y and perss enter to kill the server
-
-------------------------------------------------------
-
+* ...
