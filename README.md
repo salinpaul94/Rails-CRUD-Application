@@ -1,24 +1,39 @@
-# README
+## Getting started
+Dependancies
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Install:
 
-Things you may want to cover:
+ruby version :- 3.1.2p20
+rails version :- 7.0.3.1
 
-* Ruby version
+-------------------------------------------------------
 
-* System dependencies
 
-* Configuration
+Configuration
 
-* Database creation
+Download the blog folder into your system
 
-* Database initialization
+Open terminal and cd into the blog folder
 
-* How to run the test suite
+run the command  "bundle install"
 
-* Services (job queues, cache servers, search engines, etc.)
+------------------------------------------------------
 
-* Deployment instructions
+How to run the application
 
-* ...
+Open terminal and cd into the blog folder
+
+type command:- "rails server"
+
+Open any browser and in goto :- "http://127.0.0.1:3000"
+
+HERE YOU CAN PERFORM THE CRUD OPERATIONS
+
+-------------------------------------------------------
+
+To close the server
+
+in the terminal perss crtl-c
+perss y and perss enter to kill the server
+
+------------------------------------------------------
