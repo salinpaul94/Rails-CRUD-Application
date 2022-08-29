@@ -12,6 +12,12 @@
    font-style: italic;
 }
 
+.indexCredentials {
+   color: #6495ED;
+   font-size: 20px;
+   font-style: bold;
+}
+
 .emailHeader {
    color: whitesmoke;
 }
