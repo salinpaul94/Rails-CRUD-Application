@@ -32,3 +32,9 @@
    text-decoration: none;
    color: whitesmoke;
  }
+
+ .showFriendDetails {
+   background-color: transparent;
+   color: black;
+   border: none
+ }
