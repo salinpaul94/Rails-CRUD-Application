@@ -31,6 +31,11 @@
     <%= form.text_field :facebook, class:"form-control", placeholder:"Facebook" %>
   </div>
 
+  <div class="field form-group">
+    <%= form.number_field :user_id, id: :friend_user_id, class:"form-control", placeholder:"User Id", 
+        value: current_user.id, type: :hidden %>
+  </div>
+
   <br>
   
   <div>

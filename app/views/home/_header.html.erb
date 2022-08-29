@@ -10,22 +10,14 @@
         <%= link_to "About", home_about_path, class:"nav-link" %>
       </li>
 
-      <li class="nav-item">
-        <%= link_to "Friends List", friends_path, class:"nav-link" %>
-      </li>
-
       <% if user_signed_in? %>
 
         <li class="nav-item">
+          <%= link_to "Friends List", friends_path, class:"nav-link" %>
+        </li>
+
+        <li class="nav-item">
           <%= link_to "Add Friend", new_friend_path, class:"nav-link" %>
-        </li>
-
-        <li class="nav-item">
-          <%= button_to "Sign Out", destroy_user_session_path, method: :delete, class:"nav-link btn btn-link" %>
-        </li>
-
-        <li class="nav-item">
-          <%= link_to "Edit Profile", edit_user_registration_path, class:"nav-link" %>
         </li>
 
       <% else %>
@@ -36,12 +28,19 @@
         <li class="nav-item">
           <%= link_to "Sign In", new_user_session_path, class:"nav-link" %>
         </li>
+
+        
       
       <% end %>
 
-      
-
     </ul>
+
+    <% if user_signed_in? %>
+    <span class="emailHeader"><%= current_user.email%>&nbsp;</span>
+    <%= link_to "Edit Profile", edit_user_registration_path, class:"buttonHeader" %>&nbsp;
+    <%= button_to "Sign Out", destroy_user_session_path, method: :delete, class:"buttonHeader" %>&nbsp;
+    <% end  %>
+
     <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>

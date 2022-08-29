@@ -7,7 +7,22 @@
       font-weight: bold;
  }
 
- .indexComment {
+.indexComment {
    color: yellowgreen;
    font-style: italic;
 }
+
+.emailHeader {
+   color: whitesmoke;
+}
+
+.buttonHeader {
+   background-color: transparent;
+   color: #777;
+   border: none
+ }
+
+ .buttonHeader:hover {
+   text-decoration: none;
+   color: whitesmoke;
+ }
